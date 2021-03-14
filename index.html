@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Welcome to the mte-world</title>
-  </head>
-  <body>
-    <p> hello </p>
-    <img border="0" src="calender_man.png" width="128" height="128" alt="イラスト1">
-    <form action="/calc/calc.html" method="get"</form>
+<head>
+  <meta charset="utf-8">
+  <title>Welcome to the mte-world</title>
+ 
+
+
+</head>
+<body>
+  <p> hello </p>
+
+  
+  <div id="displaycount"></div>
+  <script src="visitcounter.js"></script>
+  
+  <img border="0" src="calender_man.png" width="128" height="128" alt="イラスト1">
+  
+  <form action="/calc/calc.html" method="get">
     <p>
       <label for="num1"></label>
       Please enter a Numeric in textbox.
@@ -18,9 +27,9 @@
       Please select the Operator what you want.
       <select name="ope">
         <option value="add">+</option>
-        <option value="subtraction">-</option>
-        <option value="multi">*</option>
-        <option value="division">/</option>
+        <option value="sub">-</option>
+        <option value="mul">*</option>
+        <option value="div">/</option>
       </select>
     </p>
     <p>
@@ -28,8 +37,12 @@
       <input type="text" name="num2" value="">
     </p>
     <form action="/calc/calc.html" method="post">
-            <input type="submit" value="send">
-    </form>
-  </body>
+      <input type="submit" value="send">
 
-</html>
+    </form>
+
+  </form>
+
+</body>
+
+  </html>
